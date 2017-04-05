@@ -1,0 +1,128 @@
+[
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Intercept",
+    "Estimate": -1606817.22123,
+    "StdErr": 88968.1820964,
+    "tValue": -18.0605828215,
+    "Probt": 3.42894175691e-69
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Total_Bsmt_SF",
+    "Estimate": 61.2452521458,
+    "StdErr": 2.17625599236,
+    "tValue": 28.1424852411,
+    "Probt": 2.54296945194e-154
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Bsmt_Full_Bath",
+    "Estimate": 10248.4224476,
+    "StdErr": 1468.38316612,
+    "tValue": 6.97939249379,
+    "Probt": 3.6572637646e-12
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Full_Bath",
+    "Estimate": 12262.5206833,
+    "StdErr": 1835.24567458,
+    "tValue": 6.68167801899,
+    "Probt": 2.82007304242e-11
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Half_Bath",
+    "Estimate": 15549.7136753,
+    "StdErr": 1681.05947453,
+    "tValue": 9.24994856566,
+    "Probt": 4.22433163486e-20
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Bedroom_AbvGr",
+    "Estimate": -12110.0257067,
+    "StdErr": 1225.64656033,
+    "tValue": -9.88052028918,
+    "Probt": 1.14575702389e-22
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "TotRms_AbvGrd",
+    "Estimate": 13430.1589241,
+    "StdErr": 751.835560533,
+    "tValue": 17.8631600167,
+    "Probt": 8.42695960143e-68
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Fireplaces",
+    "Estimate": 15864.1718607,
+    "StdErr": 1243.53545885,
+    "tValue": 12.7573136318,
+    "Probt": 2.62030488673e-36
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Garage_Cars",
+    "Estimate": 17601.2252574,
+    "StdErr": 1235.07015673,
+    "tValue": 14.2511946884,
+    "Probt": 1.35097451985e-44
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Wood_Deck_SF",
+    "Estimate": 37.1351972975,
+    "StdErr": 5.93603006702,
+    "tValue": 6.25589777649,
+    "Probt": 4.53321024629e-10
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Open_Porch_SF",
+    "Estimate": 54.6762492206,
+    "StdErr": 11.2687485593,
+    "tValue": 4.85202495492,
+    "Probt": 1.28647690611e-06
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Screen_Porch",
+    "Estimate": 78.631939889,
+    "StdErr": 12.7456820419,
+    "tValue": 6.16930028778,
+    "Probt": 7.81068145617e-10
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Year_Built",
+    "Estimate": 216.414402781,
+    "StdErr": 35.61216974,
+    "tValue": 6.07697886314,
+    "Probt": 1.3842800674e-09
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Year_Remod_Add",
+    "Estimate": 588.284183597,
+    "StdErr": 44.7216041137,
+    "tValue": 13.15436231,
+    "Probt": 1.96701949708e-38
+  }
+]

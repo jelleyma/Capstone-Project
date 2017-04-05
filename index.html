@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="dreamhome.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <title>Price Your Dream Home!</title>
+        <meta name="description" content="Pricing Your Dream Home">
+        <script src="dreamhome-JS.js"></script>
+    </head>
+    <body>
+        
+        <h1>Price Your Dream Home!</h1>
+        
+        <!--
+            Instructions to the user
+        -->
+        
+        <p>
+            Welcome to your dream home creator! Select the housing features you desire below.
+        </p>
+        
+        <!--
+            Begin Form
+        -->
+        <form action="javascript:getPrice();">
+        <h3> Square Footage </h3>
+        <p>
+            <label>Basement Square Feet: </label>
+            <input type="text" id="Total_Bsmt_SF"><br>
+            <label>1st Floor Square Feet:  </label>
+            <input type="text" id="_1st_Flr_SF"><br>
+            <label>2nd Floor Square Feet: </label>
+            <input type="text" id="_2nd_Flr_SF"><br>
+        </p>
+            
+        <h3> Rooms </h3>
+        <p>
+            <label>Basement Bathrooms: </label>
+            <input type="text" id="Bsmt_Full_Bath"><br>
+            <label>Full Baths above basement:  </label>
+            <input type="text" id="Full_Bath"><br>
+            <label>Half Baths above basement:  </label>
+            <input type="text" id="Half_Bath"><br>
+            <label>Bedrooms:  </label>
+            <input type="text" id="Bedroom_AbvGr"><br>
+            <label>Other rooms (kitchen, living room, etc): </label>
+            <input type="text" id="TotRms_AbvGrd"><br>
+        </p>
+            
+        <h3> Age </h3>
+        <p>
+            <label>Year Built: </label>
+            <input type="text" id="Year_Built"><br>
+            <label>Year Remodeled: </label>
+            <input type="text" id="Year_Remod_Add"><br>
+        </p>    
+            
+        <h3> Extras </h3>
+        <p>
+            <label>Fireplaces: </label>    
+            <input type="text" id="Fireplaces"><br>
+            <label>Garage Space: </label>
+            <input type="text" id="Garage_Cars"><br>
+            <label>Wood Deck Square Feet: </label>
+            <input type="text" id="Wood_Deck_SF"><br>
+            <label>Open Porch Square Feet: </label>
+            <input type="text" id="Open_Porch_SF"><br>
+            <label>Screen Porch Square Feet: </label>
+            <input type="text" id="Screen_Porch"><br>
+            <label>Pool Area: </label>
+            <input type="text" id="Pool Area"><br>
+        </p>
+        
+        <div class="submit" style="text-align:center">  
+            <input type="submit"  value="Submit!" />
+        </div> 
+            
+        </form>
+        
+        <h2 id="insertPrice"></h2>
+    </body>
+</html>
