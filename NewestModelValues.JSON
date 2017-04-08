@@ -1,0 +1,173 @@
+[
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Intercept",
+    "Estimate": -1908159.64707,
+    "StdErr": 79088.8603645,
+    "tValue": -24.1267814238,
+    "Probt": 2.26519025439e-117
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Lot_Area",
+    "Estimate": 0.488793277812,
+    "StdErr": 0.0852469741362,
+    "tValue": 5.73384900478,
+    "Probt": 1.08279810508e-08
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Total_Bsmt_SF",
+    "Estimate": 44.4130409499,
+    "StdErr": 2.58528936436,
+    "tValue": 17.1791372998,
+    "Probt": 4.50462331015e-63
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "_1st_Flr_SF",
+    "Estimate": 77.8867773827,
+    "StdErr": 3.74605490738,
+    "tValue": 20.7916806636,
+    "Probt": 1.27777802589e-89
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "_2nd_Flr_SF",
+    "Estimate": 81.4741000127,
+    "StdErr": 3.2539427392,
+    "tValue": 25.0385782857,
+    "Probt": 1.927433145e-125
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Bsmt_Full_Bath",
+    "Estimate": 8372.25892129,
+    "StdErr": 1315.51699654,
+    "tValue": 6.36423470266,
+    "Probt": 2.27307709405e-10
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Bsmt_Half_Bath",
+    "Estimate": 2200.38449219,
+    "StdErr": 2582.87834971,
+    "tValue": 0.851911779909,
+    "Probt": 0.394333329481
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Full_Bath",
+    "Estimate": -6267.89259477,
+    "StdErr": 1791.02803203,
+    "tValue": -3.49960608246,
+    "Probt": 0.000472957306984
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Half_Bath",
+    "Estimate": -2294.99928914,
+    "StdErr": 1778.93499771,
+    "tValue": -1.29009732908,
+    "Probt": 0.197119621005
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Bedroom_AbvGr",
+    "Estimate": -14867.318641,
+    "StdErr": 1094.9312207,
+    "tValue": -13.5783128291,
+    "Probt": 9.21489385512e-41
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "TotRms_AbvGrd",
+    "Estimate": 2737.32515676,
+    "StdErr": 773.885739491,
+    "tValue": 3.53711797114,
+    "Probt": 0.000410854351619
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Fireplaces",
+    "Estimate": 7833.85386688,
+    "StdErr": 1150.5836792,
+    "tValue": 6.80859115985,
+    "Probt": 1.19297655734e-11
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Garage_Cars",
+    "Estimate": 1837.3432505,
+    "StdErr": 1936.49356138,
+    "tValue": 0.948799049551,
+    "Probt": 0.342801801326
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Garage_Area",
+    "Estimate": 41.8226487645,
+    "StdErr": 6.63050021359,
+    "tValue": 6.30761592901,
+    "Probt": 3.26542556164e-10
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Wood_Deck_SF",
+    "Estimate": 19.1260137664,
+    "StdErr": 5.27599493156,
+    "tValue": 3.6251008605,
+    "Probt": 0.000293810845692
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Open_Porch_SF",
+    "Estimate": 15.9030988426,
+    "StdErr": 10.0087796881,
+    "tValue": 1.58891486657,
+    "Probt": 0.112188509258
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Screen_Porch",
+    "Estimate": 55.5401534424,
+    "StdErr": 11.2484232042,
+    "tValue": 4.9375945796,
+    "Probt": 8.35655186064e-07
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Year_Built",
+    "Estimate": 454.392720878,
+    "StdErr": 32.6505045289,
+    "tValue": 13.9168667509,
+    "Probt": 1.13970040941e-42
+  },
+  {
+    "_Run_": 1,
+    "Dependent": "SalePrice",
+    "Parameter": "Year_Remod_Add",
+    "Estimate": 516.520540453,
+    "StdErr": 39.5669891334,
+    "tValue": 13.054330182,
+    "Probt": 6.85813361194e-38
+  }
+]
