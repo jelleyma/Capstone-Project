@@ -28,25 +28,31 @@
         <form action="javascript:getPrice();">
         <h3> Square Footage </h3>
         <p>
+            <label>Total Lot Area (sqft): </label>
+            <input type="text" id="Lot_Area"><br>
             <label>Basement Square Feet: </label>
             <input type="text" id="Total_Bsmt_SF"><br>
             <label>1st Floor Square Feet:  </label>
             <input type="text" id="_1st_Flr_SF"><br>
             <label>2nd Floor Square Feet: </label>
             <input type="text" id="_2nd_Flr_SF"><br>
+            <label>Additional Interior Square Feet: </label>
+            <input type="text" id="Gr_Liv_Area"><br>
         </p>
             
         <h3> Rooms </h3>
         <p>
-            <label>Basement Bathrooms: </label>
+            <label>Basement Full Baths: </label>
             <input type="text" id="Bsmt_Full_Bath"><br>
+            <label>Basement Half Baths: </label>
+            <input type="text" id="Bsmt_Half_Bath"><br>
             <label>Full Baths above basement:  </label>
             <input type="text" id="Full_Bath"><br>
             <label>Half Baths above basement:  </label>
             <input type="text" id="Half_Bath"><br>
             <label>Bedrooms:  </label>
             <input type="text" id="Bedroom_AbvGr"><br>
-            <label>Other rooms (kitchen, living room, etc): </label>
+            <label>Total rooms (including kitchen, living room, etc): </label>
             <input type="text" id="TotRms_AbvGrd"><br>
         </p>
             
@@ -62,16 +68,18 @@
         <p>
             <label>Fireplaces: </label>    
             <input type="text" id="Fireplaces"><br>
-            <label>Garage Space: </label>
+            <label>Garage Spots: </label>
             <input type="text" id="Garage_Cars"><br>
+            <label>Garage Area (sqft): </label>
+            <input type="text" id="Garage_Area"><br>
             <label>Wood Deck Square Feet: </label>
             <input type="text" id="Wood_Deck_SF"><br>
             <label>Open Porch Square Feet: </label>
             <input type="text" id="Open_Porch_SF"><br>
             <label>Screen Porch Square Feet: </label>
             <input type="text" id="Screen_Porch"><br>
-            <label>Pool Area: </label>
-            <input type="text" id="Pool Area"><br>
+            <!--<label>Pool Area: </label>
+            <input type="text" id="Pool Area"><br>-->
         </p>
         
         <div class="submit" style="text-align:center">  
