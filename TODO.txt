@@ -1,0 +1,7 @@
+1. Populate Google Maps stuff
+2. More graph images
+3. Bootstrap for ranking page
+4. Finish sort of rankings
+5. Upload everything online
+6. Test that everything works
+7. "Why you should trust our data" section
